@@ -8,3 +8,4 @@
  - CI: test_bpf
  - CI: seccomp
  - CI: samples/bpf
+ - CI: tc + eBPF (for tail call)
