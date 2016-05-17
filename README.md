@@ -11,7 +11,11 @@
  - CI: samples/bpf
  - CI: tc + eBPF (for tail call)
 
-Developers
- - DB: Daniel Borkmann <daniel@iogearbox.net>
- - YS: Yang Shi <yang.shi@linaro.org>
- - ZL: Zi Shen Lim <zlim.lnx@gmail.com>
+## Developers
+ - [DB] ```Daniel Borkmann <daniel@iogearbox.net>```
+ - [YS] ```Yang Shi <yang.shi@linaro.org>```
+ - [ZL] ```Zi Shen Lim <zlim.lnx@gmail.com>```
+
+## Git
+ - [mainline] https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/log/arch/arm64/net
+ - [net-next] http://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/log/arch/arm64/net
