@@ -5,7 +5,7 @@
  - implement BPF_STX | BPF_XADD | BPF_{W,DW}
  - optimize immediates
  - implement tail call
- - optimize TMP_REG [YS]
+ - ~~optimize TMP_REG~~ [YS - https://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/commit/arch/arm64/net?id=4c1cd4fdfd14ecd417962f8c2166506132697f7c]
  - CI: test_bpf
  - CI: seccomp
  - CI: samples/bpf
