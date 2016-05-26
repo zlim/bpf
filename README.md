@@ -1,10 +1,10 @@
 # bpf
 
 ## TODO (arm64 eBPF)
- - ~~fix JSET~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98397fc547e3f4553553a30ea56fa34d613f0a4c]
+ - implement tail call [ZL - target 4.8]
  - implement BPF_STX | BPF_XADD | BPF_{W,DW}
  - optimize immediates
- - implement tail call
+ - ~~fix JSET~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98397fc547e3f4553553a30ea56fa34d613f0a4c]
  - ~~optimize TMP_REG~~ [YS - https://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/commit/arch/arm64/net?id=4c1cd4fdfd14ecd417962f8c2166506132697f7c]
  - CI: test_bpf
  - CI: seccomp
