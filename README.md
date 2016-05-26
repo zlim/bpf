@@ -23,3 +23,13 @@ Note: We've reached out to Linaro/kernelci.org to see how we can leverage their 
  - [net] https://git.kernel.org/cgit/linux/kernel/git/davem/net.git/log/arch/arm64/net
  - [net-next] https://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/log/arch/arm64/net
  - [arm64-next] https://git.kernel.org/cgit/linux/kernel/git/arm64/linux.git/log/arch/arm64/net?h=for-next/core
+
+## Useful References (BPF)
+ - [tc-bpf] http://man7.org/linux/man-pages/man8/tc-bpf.8.html
+ - [Daniel's talks] http://borkmann.ch/talks/
+ - [iovisor/bpf-docs] https://github.com/iovisor/bpf-docs
+ - [iproute2/examples/bpf] https://git.kernel.org/cgit/linux/kernel/git/shemminger/iproute2.git/tree/examples/bpf
+ 
+## Useful References (ARM)
+  - [ARMv8-A Reference Manual] http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.i/index.html
+  - [AAPCS64] http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ihi0055b/index.html
