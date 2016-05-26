@@ -27,6 +27,7 @@ Note: We've reached out to Linaro/kernelci.org to see how we can leverage their 
  - [arm64-next] https://git.kernel.org/cgit/linux/kernel/git/arm64/linux.git/log/arch/arm64/net?h=for-next/core
 
 ## Useful References (BPF)
+ - [bpf] http://man7.org/linux/man-pages/man2/bpf.2.html
  - [tc-bpf] http://man7.org/linux/man-pages/man8/tc-bpf.8.html
  - [Daniel's talks] http://borkmann.ch/talks/
  - [iovisor/bpf-docs] https://github.com/iovisor/bpf-docs
