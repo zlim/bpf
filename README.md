@@ -3,8 +3,8 @@
 # bpf
 
 ## TODO (arm64 eBPF)
- - implement tail call [ZL - target 4.8]
- - implement BPF_STX | BPF_XADD | BPF_{W,DW}
+ - implement tail call [ZL - https://patchwork.ozlabs.org/patch/630313/]
+ - implement BPF_STX | BPF_XADD | BPF_{W,DW} [YS?]
  - optimize immediates
  - ~~fix JSET~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98397fc547e3f4553553a30ea56fa34d613f0a4c]
  - ~~optimize TMP_REG~~ [YS - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/arch/arm64/net?id=4c1cd4fdfd14ecd417962f8c2166506132697f7c]
