@@ -3,7 +3,7 @@
 # bpf
 
 ## TODO (arm64 eBPF)
- - implement tail call [ZL - https://patchwork.ozlabs.org/patch/630313/]
+ - implement tail call [ZL - http://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/commit/?id=ddb55992b04d9749e7c00af7f855e4e13566a521]
  - implement BPF_STX | BPF_XADD | BPF_{W,DW} [YS?]
  - optimize immediates
  - ~~fix JSET~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98397fc547e3f4553553a30ea56fa34d613f0a4c]
