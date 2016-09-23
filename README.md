@@ -3,11 +3,13 @@
 # bpf
 
 ## TODO (arm64 eBPF)
- - implement tail call [ZL - http://git.kernel.org/cgit/linux/kernel/git/davem/net-next.git/commit/?id=ddb55992b04d9749e7c00af7f855e4e13566a521]
- - implement BPF_STX | BPF_XADD | BPF_{W,DW} [YS?]
+ - ~~implement tail call~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/arch/arm64/net?id=ddb55992b04d9749e7c00af7f855e4e13566a521]
+ - implement BPF_STX | BPF_XADD | BPF_{W,DW} [YS? (open)]
  - optimize immediates
  - ~~fix JSET~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/?id=98397fc547e3f4553553a30ea56fa34d613f0a4c]
  - ~~optimize TMP_REG~~ [YS - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/arch/arm64/net?id=4c1cd4fdfd14ecd417962f8c2166506132697f7c]
+ - ~~optimize JMP_CALL~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/arch/arm64/net?id=997ce888324685a90fb5d0fa26293eb8826c767c]
+ - ~~optimize LD_ABS, LD_IND~~ [ZL - https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/arch/arm64/net?id=643c332d519bdfbf80d21f40d1c0aa0ccf3ec1cb]
  - CI: test_bpf
  - CI: seccomp
  - CI: samples/bpf
