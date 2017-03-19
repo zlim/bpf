@@ -36,5 +36,6 @@ Note: We've reached out to Linaro/kernelci.org to see how we can leverage their 
  - [iproute2/examples/bpf] https://git.kernel.org/cgit/linux/kernel/git/shemminger/iproute2.git/tree/examples/bpf
  
 ## Useful References (ARM)
-  - [ARMv8-A Reference Manual] http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0487a.i/index.html
+  - [ARMv8-A Reference Manual] https://developer.arm.com/products/architecture/a-profile/docs/ddi0487/latest/arm-architecture-reference-manual-armv8-for-armv8-a-architecture-profile
+  - [ARMv8.1 Reference Manual] https://developer.arm.com/products/architecture/a-profile/docs/ddi0557/latest/arm-architecture-reference-manual-supplement-armv81-for-armv8-a-architecture-profile
   - [AAPCS64] http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ihi0055b/index.html
